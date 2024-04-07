@@ -6,5 +6,5 @@
 *
 
 ## Info
-_Autor_: Pablo Montero Rollán [Profile](https://github.com/pabmonrol)
+_Autor_: Pablo Montero Rollán [Profile](https://github.com/pabmonrol)\
 _Professor_: Pedro Ángel Castillo Valdivieso [Profile](https://github.com/pacastillo)
