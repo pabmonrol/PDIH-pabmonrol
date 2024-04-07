@@ -17,7 +17,7 @@ codigo segment 'code'
 			int 21h
 			;actualizar contador y comprobar condición
 			inc cx
-			cmp cx,5
+			cmp cx,7
 			jne bucle
 	main ENDP
 codigo ends
