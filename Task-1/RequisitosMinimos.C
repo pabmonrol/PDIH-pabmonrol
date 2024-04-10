@@ -44,7 +44,7 @@ void setcursortype(int cursor_type) {
     switch(cursor_type) {
         case INVISIBLE:
             regs.h.ch = 0x20;
-						break;
+		break;
         case NORMAL:
             regs.h.ch = 0x06;
             regs.h.cl = 0x07;
