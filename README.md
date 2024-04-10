@@ -1,4 +1,4 @@
-# Practical content of the subject Peripherals and Human Interface Devices
+# Practical content of the subject Peripherals and Human Interface Devices (PDIH)
 ## Seminars
 * [Seminar 1](./Seminar-1)
 
