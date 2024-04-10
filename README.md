@@ -3,7 +3,7 @@
 * [Seminar 1](./Seminar-1)
 
 ## Practical tasks
-*
+* [Task 1](./Task-1)
 
 ## Info
 _Autor_: Pablo Montero Rollán [Profile](https://github.com/pabmonrol)\
