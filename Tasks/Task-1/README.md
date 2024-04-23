@@ -1,11 +1,11 @@
-# Task 1: Entrada/Salida utilizando interrupciones con lenguaje C
+# Task 1: Input/Output using interrupts with C language
 
 ## Description
-El objetivo de la práctica es aprender programación de interrupciones de software, entender la interfaz de acceso a recursos de entrada/salida, y desarrollar una biblioteca de funciones básicas de E/S.
+The objective of the practice is to learn software interruption programming, understand the interface for accessing input/output resources, and develop a basic I/O function library.
 
 ## Exercises
 
-### Requisitos mínimos
+### Minimum Requirements
 
 #### 6.1 *gotoxy(int x, int y)*: Place the cursor at a specific position
 Positions the cursor at the specified coordinates (x, y) on the screen. This function is useful for controlling where text or characters are displayed on the screen.
@@ -35,7 +35,7 @@ Writes a single character c to the screen using the currently set text and backg
 Gets a character from the keyboard and displays it immediately on the screen. It combines input reading and output display in a single step, useful for interactive applications.
 
 
-### Requisitos ampliados
+### Expanded Requirements
 
 #### 7.1
 
