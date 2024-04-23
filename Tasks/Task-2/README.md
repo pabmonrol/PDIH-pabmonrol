@@ -12,7 +12,7 @@ The ncurses library is a programming library that provides an API for creating t
 
 ##### *entrada.py*
 
-![](./img/Tasks/Task-2/entrada1.png)
+![](img/Tasks/Task-2/entrada1.png)
 
 
 ![](./img/Tasks/Task-2/entrada1.png)
