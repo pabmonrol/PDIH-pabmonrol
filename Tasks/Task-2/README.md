@@ -12,21 +12,21 @@ The ncurses library is a programming library that provides an API for creating t
 
 ##### *entrada.py*
 
-![](./img/Task-2/entrada1.png)
+![](./img/Tasks/Task-2/entrada1.png)
 
 
-![](./img/Task-2/entrada1.png)
+![](./img/Tasks/Task-2/entrada1.png)
 
 ##### *hello.py*
 
-![](./img/Task-2/hello.png)
+![](./img/Tasks/Task-2/hello.png)
 
 ##### *menu.py*
-![](./img/Task-2/menu.png)
+![](./img/Tasks/Task-2/menu.png)
 
 ##### *ventana.py*
 
-![](./img/Task-2/ventana1.png)
+![](./img/Tasks/Task-2/ventana1.png)
 
 
 ![](./img/Tasks/Task-2/ventana2.png)
