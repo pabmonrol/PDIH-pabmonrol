@@ -1,6 +1,7 @@
 # Practical content of the subject Peripherals and Human Interface Devices (PDIH)
 ## Seminars
 * [Seminar 1](./Seminars/Seminar-1)
+* [Seminar 2](./Seminars/Seminar-2)
 
 ## Practical tasks
 * [Task 1](./Tasks/Task-1)
