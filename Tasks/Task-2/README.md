@@ -31,11 +31,20 @@ The ncurses library is a programming library that provides an API for creating t
 
 ![](/img/Tasks/Task-2/ventana2.png)
 
+##### Others
+
+![](/img/Tasks/Task-2/p1.gif)
+
+![](/img/Tasks/Task-2/p2.gif)
+
+![](/img/Tasks/Task-2/p3.gif)
+
 
 #### Create a simple "pong" type game
 _Pong_ is a simple two-dimensional sports game that simulates table tennis. Players control paddles on either side of the screen and use them to hit a ball back and forth. The goal is to score points by getting the ball past the opponent's paddle.
 
 ![Pong game](/img/Tasks/Task-2/pong_game.png)
+![Pong game](/img/Tasks/Task-2/pong_game2.gif)
 
 ### Requisitos ampliados
 
