@@ -13,9 +13,9 @@ To run the programs in this repository, you will need:
 ### 8.1 *video-mode-change.c*
 Change the video mode of the system using the BIOS interrupt `0x10`.
 
-![](/img/Seminars/Seminar-2/Exercise-1.png)
+![](/img/Seminars/Seminar-2/Ex1.png)
 
 ### 8.2 *read-characters.c*
 Read characters from the keyboard using interrupts and display the characters read on the screen.
 
-![](/img/Seminars/Seminar-1/Exercise-2.png)
+![](/img/Seminars/Seminar-1/Ex2.png)
