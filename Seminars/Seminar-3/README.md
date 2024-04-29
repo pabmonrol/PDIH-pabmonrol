@@ -15,7 +15,7 @@ TinkerCad Circuits is an online platform that allows you to design electronic ci
 - **Features:**
     - Creation of circuits from a library of electronic components.
     - Real-time simulation.
-- **Website:** ![TinkerCad Circuits](https://www.tinkercad.com/circuits)
+- **Website:** [TinkerCad Circuits](https://www.tinkercad.com/circuits)
 - **Instructions:**
     1. Register a new user.
     ![](/img/Seminars/Seminar-3/Register.png)
