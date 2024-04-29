@@ -7,6 +7,7 @@
 ## Practical tasks
 * [Task 1](./Tasks/Task-1)
 * [Task 2](./Tasks/Task-2)
+* [Task 3](./Tasks/Task-3)
 
 ## Info
 _Autor_: Pablo Montero Rollán [Profile](https://github.com/pabmonrol)\
