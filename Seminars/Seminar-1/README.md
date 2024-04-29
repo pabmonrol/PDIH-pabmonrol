@@ -1,7 +1,7 @@
 # Seminar 1: Low-Level Device Programming
 
 ## Description
-This project includes the source code files for an assembler program that executes a "Hello World" and a variant that prints the message seven times in a loop. This delivery was made using **DOSBox** to emulate the MS-DOS environment and the **Turbo Assembler** and **Turbo Linker** tools to compile the code in C.
+This seminar includes the source code files for an assembler program that executes a "Hello World" and a variant that prints the message seven times in a loop. This delivery was made using **DOSBox** to emulate the MS-DOS environment and the **Turbo Assembler** and **Turbo Linker** tools to compile the code in C.
 
 ## DOSBox Installation and Configuration
 DOSBox was installed and configured to emulate an MS-DOS environment, following the steps in section 5 *Emulating MS-DOS with DOSBox* of the [guide](./S1-Guide.pdf).
