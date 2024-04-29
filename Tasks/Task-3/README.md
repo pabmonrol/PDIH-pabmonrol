@@ -22,5 +22,5 @@ Familiarize students with the basic setup and programming of Arduino for simple 
 1. **Distance detector**
    Use an ultrasonic sensor to detect distance and a buzzer to emit a sound based on this.
 
-![](/img/Tasks/Task-3/Ex-431.gif)
+![](/img/Tasks/Task-3/Ex-431.png)
 
