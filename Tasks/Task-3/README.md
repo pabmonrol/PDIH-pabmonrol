@@ -41,5 +41,5 @@ Example:
 
 [![Watch the video](/img/Tasks/Task-3/Ex-422PNG.png)](https://youtu.be/e1Eq__og6UE)
 
-![(/img/Tasks/Task-3/Ex-422JPG.jpeg)](https://youtu.be/j3kPL187kZc)
+[![Watch the video](/img/Tasks/Task-3/Ex-422JPG.jpeg)](https://youtu.be/j3kPL187kZc)
 
