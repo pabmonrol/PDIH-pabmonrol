@@ -39,6 +39,8 @@ You could trick the user into thinking the video is on the readme page with a pi
 
 Example:
 
+## Click on images to watch videos
+
 [![Watch the video](/img/Tasks/Task-3/Ex-422PNG.png)](https://youtu.be/e1Eq__og6UE)
 
 [![Watch the video](/img/Tasks/Task-3/Ex-422JPG.jpg)](https://youtu.be/j3kPL187kZc)
