@@ -22,7 +22,24 @@ Familiarize students with the basic setup and programming of Arduino for simple 
 1. **Distance detector**
    Use an ultrasonic sensor to detect distance and a buzzer to emit a sound based on this.
 
-![(/img/Tasks/Task-3/Ex-422PNG.png)](https://youtu.be/e1Eq__og6UE)
+Add a url to video file in your ReadMe.
+Github now supports videos, see more detailed answer here: https://stackoverflow.com/a/4279746/1092815
+
+You can see a live example here (See at the end of the readme):
+https://github.com/alelievr/Mixture/blob/0.4.0/README.md
+
+Github Pages
+I strongly recommend placing the video in a project website created with GitHub Pages instead of the readme, like described in VonC's answer; it will be a lot better than any of these ideas. But if you need a quick fix just like I needed, here are some suggestions.
+
+Use a gif
+See aloisdg's answer, result is awesome, gifs are rendered on github's readme ;)
+
+Use a video player picture
+You could trick the user into thinking the video is on the readme page with a picture. It sounds like an ad trick, it's not perfect, but it works and it's funny ;).
+
+Example:
+
+[![Watch the video](/img/Tasks/Task-3/Ex-422PNG.png)](https://youtu.be/e1Eq__og6UE)
 
 ![(/img/Tasks/Task-3/Ex-422JPG.jpeg)](https://youtu.be/j3kPL187kZc)
 
