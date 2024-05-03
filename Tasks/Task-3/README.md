@@ -15,12 +15,14 @@ Familiarize students with the basic setup and programming of Arduino for simple 
 2. **LED control with switch**
    Modify the previous circuit by adding a switch. Adapt the code so that the red LED lights up only when the switch is activated and the other two LEDs turn off.
 
-![](/img/Tasks/Task-3/Ex-421.gif)
+![](/img/Tasks/Task-3/Ex-412.gif)
 
 ### Extended requirements
 
 1. **Distance detector**
    Use an ultrasonic sensor to detect distance and a buzzer to emit a sound based on this.
 
-![](/img/Tasks/Task-3/Ex-431.png)
+![](/img/Tasks/Task-3/Ex-422VID.mp4)
+
+![](/img/Tasks/Task-3/Ex-422VIDreal.mp4)
 
