@@ -42,6 +42,6 @@ This project involves an Arduino setup with a servo motor and an ultrasonic sens
 
 ![](/img/Project/radar_scheme.gif)
 
-[![Watch the video](/img/Project/real_radar.jpg)](https://youtu.be/txFutFT6s20)
+[![Watch the video](/img/Project/real_radar.png)](https://youtu.be/txFutFT6s20)
 
 
