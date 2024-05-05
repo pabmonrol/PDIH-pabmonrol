@@ -8,9 +8,6 @@ This project involves an Arduino setup with a servo motor and an ultrasonic sens
 - **Data transmission**: Measurements are sent from the Arduino to a computer via serial communication.
 - **Real-time visualization**: A Processing application receives the data and visualizes it in a radar-like interface, providing a dynamic view of the environment based on sensor readings.
 
-## Overview
-This project involves an Arduino setup with a servo motor and an ultrasonic sensor to measure distances and provide visual feedback using a radar-style display. The Arduino code controls the hardware to scan the environment, while the Processing-based Java application visualizes the data.
-
 ## Features
 - **Arduino Script**: Controls a servo motor to rotate an ultrasonic sensor and measures distances. The distances are sent over serial communication.
 - **Processing Application**: Visualizes the data received from the Arduino in a radar-style interface, updating in real-time as the sensor scans.
