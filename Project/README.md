@@ -16,8 +16,8 @@ This project involves an Arduino setup with a servo motor and an ultrasonic sens
 - **Processing Application**: Visualizes the data received from the Arduino in a radar-style interface, updating in real-time as the sensor scans.
 
 ## Installation Requirements
-- **Arduino IDE**: To upload the sketch to your Arduino board. ![Link](https://www.arduino.cc/en/software)
-- **Processing 3**: To run the radar interface visual application. ![Link](https://processing.org/download)
+- **Arduino IDE**: To upload the sketch to your Arduino board. [Link](https://www.arduino.cc/en/software)
+- **Processing 3**: To run the radar interface visual application. [Link](https://processing.org/download)
 
 ### Hardware Required
 - Arduino Board
