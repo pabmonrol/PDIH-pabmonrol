@@ -9,21 +9,22 @@ void setup() {
 
 void loop() {
     int button = digitalRead(7);
-    digitalWrite(11, LOW);
-    digitalWrite(12, LOW);
-    delay(1500);
     
     if (button == HIGH) {
         digitalWrite(11, HIGH);
         digitalWrite(12, HIGH);
         digitalWrite(13, LOW);
-    	delay(1500);
+    	  delay(1500);
+        digitalWrite(11, LOW);
+        digitalWrite(12, LOW);
+    	  delay(1500);
     } else {
         digitalWrite(11, LOW);
         digitalWrite(12, LOW);
         digitalWrite(13, HIGH);
-    	delay(1500);
+    	  delay(1500);
         digitalWrite(13, LOW);
+    	  delay(1500);
     }
     
 }
