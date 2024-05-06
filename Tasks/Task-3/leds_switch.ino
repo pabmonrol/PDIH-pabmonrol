@@ -1,30 +1,30 @@
-int button = 0;
+#define buttonPin = 7;
+#define redLED = 11;
+#define yellowLED = 12;
+#define greenLED = 13;
 
 void setup() {
-    pinMode(11, OUTPUT);
-    pinMode(12, OUTPUT);
-    pinMode(13, OUTPUT);
-    pinMode(7, INPUT);
+  pinMode(redLED, OUTPUT);
+  pinMode(yellowLED, OUTPUT);
+  pinMode(greenLED, OUTPUT);
+  pinMode(buttonPin, INPUT);
 }
 
 void loop() {
-    int button = digitalRead(7);
-    
-    if (button == HIGH) {
-        digitalWrite(11, HIGH);
-        digitalWrite(12, HIGH);
-        digitalWrite(13, LOW);
-    	  delay(1500);
-        digitalWrite(11, LOW);
-        digitalWrite(12, LOW);
-    	  delay(1500);
-    } else {
-        digitalWrite(11, LOW);
-        digitalWrite(12, LOW);
-        digitalWrite(13, HIGH);
-    	  delay(1500);
-        digitalWrite(13, LOW);
-    	  delay(1500);
-    }
-    
+  int buttonState = digitalRead(buttonPin);
+
+  if (buttonState == HIGH) {
+    digitalWrite(redLED, HIGH);
+    digitalWrite(yellowLED, LOW);
+    digitalWrite(greenLED, LOW);
+  } else {
+    digitalWrite(redLED, LOW);
+    digitalWrite(yellowLED, HIGH);
+    delay(1500)
+    digitalWrite(yellowLED, LOW);
+
+    digitalWrite(greenLED, HIGH);
+    delay(1500);
+    digitalWrite(greenLED, LOW);
+  }
 }
