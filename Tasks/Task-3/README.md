@@ -1,5 +1,7 @@
 # Task 3: Arduino experimentation
 
+> **_NOTE:_**  Click on the photos to see the videos.
+
 ## Objectives
 Familiarize students with the basic setup and programming of Arduino for simple input/output tasks.
 
