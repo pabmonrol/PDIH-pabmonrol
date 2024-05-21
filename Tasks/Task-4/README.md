@@ -1,34 +1,36 @@
-# Task 3: Arduino experimentation
+# Practice 4: Introduction to the Postscript Language
+
+## Description
+
+This practice aims to familiarize students with the Postscript (PS) language, a page description language primarily used for printing graphical documents. Throughout this practice, students will learn the basic syntax of PS, create several files, and test their operation with a Postscript viewer, in addition to converting these files to other formats such as PDF.
 
 ## Objectives
-Familiarize students with the basic setup and programming of Arduino for simple input/output tasks.
+
+- Learn the basic syntax of the Postscript language.
+- Create and test files in Postscript format.
+- Save Postscript files to other formats like PDF.
+
+## Used Tools
+
+- Plain text editor & file viewer ([eHubSoft PS Viewer](https://ehubsoft.herokuapp.com/psviewer/)).
+- Tools for converting PS to PDF (e.g., ps2pdf).
+
+## Proposed Exercises
+
+1. **Basic Drawing**: Create a PS file that draws a simple house.
+2. **Business Card**: Design a business card using basic PS commands.
+3. **Advanced Drawing**: Create a drawing of a heart with text in various shades of gray.
 
 ## Exercises
 
-### Minimum requirements
+### 1. Basic Drawing
 
-1. **Blinking of three LEDs**
-   Control three LEDs on digital outputs with Tinkercard. The code should allow the LEDs to blink at intervals of 1.5 seconds. 
+![](/img/Tasks/Task-4/Cap4-1.jpg)
 
-![](/img/Tasks/Task-3/Ex-411.gif)
+### 2. Business Card
 
-[![Watch the video](/img/Tasks/Task-3/Ex-411Real.png)](https://youtu.be/ILqivE_LP48)
+![](/img/Tasks/Task-4/Cap4-2.jpg)
 
-2. **LED control with switch**
-   Modify the previous circuit by adding a switch. Adapt the code so that the red LED lights up only when the switch is activated and the other two LEDs turn off.
+### 3. Advanced Drawing
 
-![](/img/Tasks/Task-3/Ex-412.gif)
-
-[![Watch the video](/img/Tasks/Task-3/Ex-412Real.png)](https://youtu.be/GsexGUFQ1I0)
-
-### Extended requirements
-
-1. **Distance detector**
-   Use an ultrasonic sensor to detect distance and a buzzer to emit a sound based on this.
-
-## Click on images to watch videos
-
-[![Watch the video](/img/Tasks/Task-3/Ex-422PNG.png)](https://youtu.be/e1Eq__og6UE)
-
-[![Watch the video](/img/Tasks/Task-3/Ex-422JPG.jpg)](https://youtu.be/j3kPL187kZc)
-
+![](/img/Tasks/Task-4/Cap4-3.jpg)
