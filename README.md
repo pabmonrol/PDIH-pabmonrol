@@ -9,6 +9,7 @@
 * [Task 2](./Tasks/Task-2)
 * [Task 3](./Tasks/Task-3)
 * [Task 4](./Tasks/Task-4)
+* [Task 5](./Tasks/Task-5)
 
 ## Project
 * [Project](./Project)
