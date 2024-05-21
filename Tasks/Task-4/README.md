@@ -25,7 +25,7 @@ This practice aims to familiarize students with the Postscript (PS) language, a 
 
 ### 1. Basic Drawing
 
-![](/img/Tasks/Task-4/Cap4-1.png)
+![](/img/Tasks/Task-4/Cap4-3.png)
 
 ### 2. Business Card
 
@@ -33,4 +33,4 @@ This practice aims to familiarize students with the Postscript (PS) language, a 
 
 ### 3. Advanced Drawing
 
-![](/img/Tasks/Task-4/Cap4-3.png)
+![](/img/Tasks/Task-4/Cap4-1.png)
