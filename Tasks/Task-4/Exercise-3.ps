@@ -1,0 +1,51 @@
+%!PS
+%% Dibujo de un corazón y texto en tonos de gris
+
+% Ajustar la escala y trasladar el origen para centrar el corazón
+200 600 translate
+1 1 scale
+1 0 0 setrgbcolor
+
+% Empezar el trazado del corazón
+newpath
+0 0 moveto
+50 90 150 100 150 0 curveto %superior derecho
+150 -50 75 -75 0 -150 curveto %inferior derecho
+-75 -75 -150 -50 -150 0 curveto %superior izquierdo
+-150 90 -50 100 0 0 curveto %superior izquierdo
+
+% Cerrar y rellenar el trazado
+closepath
+fill
+stroke
+
+% Texto en tonos de gris
+/Helvetica-Bold findfont
+13 scalefont
+setfont
+
+% Texto en gris claro
+0.8 setgray
+newpath
+150 -110 moveto
+(La belleza no es nada, no permanece.) show
+
+% Texto en gris medioa
+0.6 setgray
+newpath
+150 -130 moveto
+(No sabes la suerte que tienes si belleza) show
+
+% Texto en gris oscuro
+0.4 setgray
+newpath
+150 -150 moveto
+(Porque si le gustas a alguien,) show
+
+% Texto en gris oscuro
+0.2 setgray
+newpath
+150 -170 moveto
+(sabes que es por otra cosa.) show
+
+showpage

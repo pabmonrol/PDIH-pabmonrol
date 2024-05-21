@@ -1,0 +1,88 @@
+%!PS
+%% Tarjeta de visita con texto ajustado a la derecha y circunferencia gris con contorno y sombra
+
+% Dibujar el borde de la tarjeta
+newpath
+52 748 moveto
+400 0 rlineto
+0 -200 rlineto
+-400 0 rlineto
+closepath
+0.8 setgray
+fill
+stroke
+
+% Dibujar la tarjeta
+newpath
+50 750 moveto
+400 0 rlineto
+0 -200 rlineto
+-400 0 rlineto
+closepath
+0.95 setgray
+fill
+stroke
+
+% Dibujar la sombra de la circunferencia
+gsave
+newpath
+140 644 50 0 360 arc
+0.85 setgray
+fill
+grestore
+
+% Dibujar la circunferencia principal
+gsave
+newpath
+140 650 50 0 360 arc
+0.7 setgray
+fill
+grestore
+
+% Dibujar el contorno de la circunferencia
+gsave
+newpath
+140 650 52 0 360 arc
+0 setgray
+stroke
+grestore
+
+% Establecer fuentes
+/Helvetica-Bold findfont
+14 scalefont
+setfont
+
+% Añadir texto en negrita ajustado al margen derecho
+0 setgray
+410 680 moveto
+(Drago Kovacevic) dup stringwidth pop neg 0 rmoveto show
+
+/Helvetica findfont
+12 scalefont
+setfont
+0.3 setgray
+410 660 moveto
+(Ejecutivo de Cuentas) dup stringwidth pop neg 0 rmoveto show
+
+400 640 moveto
+() dup stringwidth pop neg 0 rmoveto show
+
+/Helvetica findfont
+10 scalefont
+setfont
+410 628 moveto
+(Po de la Castellana, 141) dup stringwidth pop neg 0 rmoveto show
+
+410 616 moveto
+(Local 2 - Edificio Cuzco IV) dup stringwidth pop neg 0 rmoveto show
+
+410 604 moveto
+(28046 Madrid) dup stringwidth pop neg 0 rmoveto show
+
+410 592 moveto
+(Tels. 914 174 550 / 669 896 224) dup stringwidth pop neg 0 rmoveto show
+
+410 580 moveto
+(drago@serotel.es) dup stringwidth pop neg 0 rmoveto show
+
+showpage

@@ -1,0 +1,68 @@
+%!PS
+%% Dibujo de una casita
+
+% Base de la casita
+newpath
+100 100 moveto
+200 0 rlineto
+0 150 rlineto
+-200 0 rlineto
+closepath
+0.7 setgray
+fill
+stroke
+
+% Techo de la casita
+newpath
+100 250 moveto
+100 100 rlineto
+100 -100 rlineto
+closepath
+0.5 setgray
+fill
+stroke
+
+% Puerta de la casita
+newpath
+180 100 moveto
+40 0 rlineto
+0 60 rlineto
+-40 0 rlineto
+closepath
+0.3 setgray
+fill
+stroke
+
+% Ventana izquierda
+newpath
+140 180 moveto
+40 0 rlineto
+0 40 rlineto
+-40 0 rlineto
+closepath
+1 setgray
+fill
+stroke
+
+% Ventana derecha
+newpath
+220 180 moveto
+40 0 rlineto
+0 40 rlineto
+-40 0 rlineto
+closepath
+1 setgray
+fill
+stroke
+
+% Texto en vertical
+0 setgray
+/Times-Roman findfont
+20 scalefont
+setfont
+newpath
+60 150 moveto
+90 rotate
+(Mi casita) show
+
+showpage
