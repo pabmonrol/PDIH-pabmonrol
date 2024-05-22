@@ -27,22 +27,22 @@ This practice aims to familiarize students with the Postscript (PS) language, a 
 
 ![](/img/Tasks/Task-4/Cap4-3.png)
 
-![](/img/Tasks/Task-4/Exercise-4-1.png)
+![](/img/Tasks/Task-4/Exercise-4-1.jpg)
 
-![Exercise 1](/Tasks/Task-4/Results/Exercise-1.pdf)
+[Exercise 1](/Tasks/Task-4/Results/Exercise-1.pdf)
 
 ### 2. Business Card
 
 ![](/img/Tasks/Task-4/Cap4-2.png)
 
-![](/img/Tasks/Task-4/Exercise-4-2.png)
+![](/img/Tasks/Task-4/Exercise-4-2.jpg)
 
-![Exercise 2](/Tasks/Task-4/Results/Exercise-2.pdf)
+[Exercise 2](/Tasks/Task-4/Results/Exercise-2.pdf)
 
 ### 3. Advanced Drawing
 
 ![](/img/Tasks/Task-4/Cap4-1.png)
 
-![](/img/Tasks/Task-4/Exercise-4-3.png)
+![](/img/Tasks/Task-4/Exercise-4-3.jpg)
 
-![Exercise 3](/Tasks/Task-4/Results/Exercise-3.pdf)
+[Exercise 3](/Tasks/Task-4/Results/Exercise-3.pdf)
