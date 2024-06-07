@@ -31,10 +31,10 @@ Estas librerías deben estar instaladas y cargadas en su entorno de R.
 
 3. **Resultados**: Los archivos PNG con las formas de onda de los sonidos.
    
+![](/img/Tasks/Task-5/forma_onda_nombre.png)
+
 ![](/img/Tasks/Task-5/forma_onda_apellido.png)
 
 ![](/img/Tasks/Task-5/forma_onda_combinada.png)
 
 ![](/img/Tasks/Task-5/forma_onda_filtrada.png)
-
-![](/img/Tasks/Task-5/forma_onda_nombre.png)
