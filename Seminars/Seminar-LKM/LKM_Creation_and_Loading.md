@@ -1,5 +1,5 @@
 # Creación y carga de un módulo LKM en Linux
-**Desarrollado por:** ChatGPT
+**Desarrollado por:** Pablo Montero Rollán
 
 **Fecha:** 7 de junio de 2024
 
@@ -13,12 +13,12 @@ En este documento se describe el proceso de creación, carga y verificación de 
 ## Desarrollo del módulo
 El módulo fue escrito en C.
 
-[Código](/img/Seminars/Seminar-LKM/aptgetupdate.png)
+[Código](/Seminars/Seminar-LKM/LKM.c)
 
 ## Makefile
 El Makefile utilizado para compilar el módulo.
 
-[Makefile](/img/Seminars/Seminar-LKM/aptgetupdate.png)
+[Makefile](/Seminars/Seminar-LKM/Makefile)
 
 ## Instalación de cabeceras de Linux
 Instalar las cabeceras del kernel con los siguientes comandos:
