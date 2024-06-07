@@ -41,10 +41,10 @@ Estas librerías deben estar instaladas y cargadas en su entorno de R.
 
 ## Audios
 
-[](/Tasks/Task-5/audio/nombre.wav)
+[Nombre](/Tasks/Task-5/audio/nombre.wav)
 
-[](/Tasks/Task-5/audio/apellidos.wav)
+[Apellidos](/Tasks/Task-5/audio/apellidos.wav)
 
-[](/Tasks/Task-5/audio/guau.wav)
+[Extra](/Tasks/Task-5/audio/guau.wav)
 
-[](/Tasks/Task-5/audio/mezcla.wav)
+[Mezcla](/Tasks/Task-5/audio/mezcla.wav)
