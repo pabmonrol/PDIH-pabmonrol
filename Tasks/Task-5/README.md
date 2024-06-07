@@ -38,3 +38,13 @@ Estas librerías deben estar instaladas y cargadas en su entorno de R.
 ![](/img/Tasks/Task-5/forma_onda_combinada.png)
 
 ![](/img/Tasks/Task-5/forma_onda_filtrada.png)
+
+## Audios
+
+[](/Tasks/Task-5/audio/nombre.wav)
+
+[](/Tasks/Task-5/audio/apellidos.wav)
+
+[](/Tasks/Task-5/audio/guau.wav)
+
+[](/Tasks/Task-5/audio/mezcla.wav)
