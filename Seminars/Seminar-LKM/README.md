@@ -6,7 +6,7 @@
 ## Introducción
 En este documento se describe el proceso de creación, carga y verificación de un módulo cargable del núcleo (LKM) en Linux.
 
-![](/img/Seminars/Seminar-LKM/carpetaantes.png)
+![](/img/Seminars/Seminar-LKM/carptaantes.png)
 
 ![](/img/Seminars/Seminar-LKM/carpetadespues.png)
 
