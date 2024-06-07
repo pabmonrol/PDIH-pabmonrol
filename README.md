@@ -3,6 +3,7 @@
 * [Seminar 1](./Seminars/Seminar-1)
 * [Seminar 2](./Seminars/Seminar-2)
 * [Seminar 3](./Seminars/Seminar-3)
+* [Seminar 4](./Seminars/Seminar-LKM)
 
 ## Practical tasks
 * [Task 1](./Tasks/Task-1)
