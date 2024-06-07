@@ -33,10 +33,3 @@ Writes a single character c to the screen using the currently set text and backg
 
 #### 6.9 *getche()*: Gets a keyboard character and displays it on the screen
 Gets a character from the keyboard and displays it immediately on the screen. It combines input reading and output display in a single step, useful for interactive applications.
-
-
-### Expanded Requirements
-
-#### 7.1
-
-#### 7.2
