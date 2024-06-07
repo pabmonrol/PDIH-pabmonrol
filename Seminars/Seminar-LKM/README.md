@@ -1,7 +1,4 @@
 # Creación y carga de un módulo LKM en Linux
-**Desarrollado por:** Pablo Montero Rollán
-
-**Fecha:** 7 de junio de 2024
 
 ## Introducción
 En este documento se describe el proceso de creación, carga y verificación de un módulo cargable del núcleo (LKM) en Linux.
