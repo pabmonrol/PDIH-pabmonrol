@@ -1,73 +1,73 @@
-# Creación y carga de un módulo LKM en Linux
 
-## Introducción
-En este documento se describe el proceso de creación, carga y verificación de un módulo cargable del núcleo (LKM) en Linux.
+# Creation and Loading of an LKM Module in Linux
 
-![](/img/Seminars/Seminar-LKM/carpteaantes.png)
+## Introduction
+This document describes the process of creating, loading, and verifying a Loadable Kernel Module (LKM) in Linux.
 
-![](/img/Seminars/Seminar-LKM/carpetadespues.png)
+![Before Directory](/img/Seminars/Seminar-LKM/carpteaantes.png)
 
-## Desarrollo del módulo
-El módulo fue escrito en C.
+![After Directory](/img/Seminars/Seminar-LKM/carpetadespues.png)
 
-[Código](/Seminars/Seminar-LKM/LKM.c)
+## Module Development
+The module was written in C.
+
+[Code](/Seminars/Seminar-LKM/LKM.c)
 
 ## Makefile
-El Makefile utilizado para compilar el módulo.
+The Makefile used to compile the module.
 
 [Makefile](/Seminars/Seminar-LKM/Makefile)
 
-## Instalación de cabeceras de Linux
-Instalar las cabeceras del kernel con los siguientes comandos:
+## Installation of Linux Headers
+Install the kernel headers with the following commands:
 
-    sudo apt-get update
-    sudo apt-cache search linux-headers-$(uname -r)
-    sudo apt-get install linux-headers-$(uname -r)
+```sh
+sudo apt-get update
+sudo apt-cache search linux-headers-$(uname -r)
+sudo apt-get install linux-headers-$(uname -r)
+```
 
-![](/img/Seminars/Seminar-LKM/aptgetupdate.png)
+![Update](/img/Seminars/Seminar-LKM/aptgetupdate.png)
 
-![](/img/Seminars/Seminar-LKM/aptcache.png)
+![Cache Search](/img/Seminars/Seminar-LKM/aptcache.png)
 
-![](/img/Seminars/Seminar-LKM/aptgetinstall.png)
+![Install Headers](/img/Seminars/Seminar-LKM/aptgetinstall.png)
 
-## Instalación de _gcc-12_
-Instalar gcc-12 para el correcto funcionamiento. Sin esta instalación nos parecerá este error:
+## Installation of gcc-12
+Install gcc-12 for proper functionality. Without this installation, you will encounter the following error:
 
-![](/img/Seminars/Seminar-LKM/errorgcc-12.png)
+![Error](/img/Seminars/Seminar-LKM/errorgcc-12.png)
 
+The procedure is as follows:
 
-El procedimiento es el siguiente:
+![Install gcc-12](/img/Seminars/Seminar-LKM/aptgetinstallgcc-12.png)
 
-![](/img/Seminars/Seminar-LKM/aptgetinstallgcc-12.png)
+![Install Command](/img/Seminars/Seminar-LKM/aptgetinstall.png)
 
-![](/img/Seminars/Seminar-LKM/aptgetinstall.png)
+## Module Compilation
+To compile the module, execute the `make` command in the directory containing the `hello.c` and `Makefile` files.
 
+![Make Command](/img/Seminars/Seminar-LKM/make.png)
 
-## Compilación del módulo
-Para compilar el módulo, se ejecutó el comando `make` en el directorio que contiene los archivos `hello.c` y `Makefile`.
+## Module Loading
+The module was loaded into the kernel with the `insmod` command:
 
-![](/img/Seminars/Seminar-LKM/make.png)
+![insmod Command](/img/Seminars/Seminar-LKM/insmod.png)
 
-## Carga del módulo
-El módulo se cargó en el kernel con el comando `insmod`:
+## Listing the Modules
 
-![](/img/Seminars/Seminar-LKM/insmod.png)
+![Module List](/img/Seminars/Seminar-LKM/lista.png)
 
-## Listar los módulos
+## Verifying the Module Functionality
+To verify that the module was loaded correctly, the system logs were inspected with `dmesg`:
 
-![](/img/Seminars/Seminar-LKM/lista.png)
+![dmesg Output](/img/Seminars/Seminar-LKM/hello.png)
 
-## Verificación del funcionamiento del módulo
-Para verificar que el módulo se cargó correctamente, se inspeccionaron los logs del sistema con `dmesg`:
+## Unloading the Module
+The module was unloaded from the kernel with the `rmmod` command:
 
-![](/img/Seminars/Seminar-LKM/hello.png)
+![rmmod Command](/img/Seminars/Seminar-LKM/rmmod.png)
 
-## Descarga del módulo
-El módulo se descargó del kernel con el comando `rmmod`:
+## Final Verification after Unloading
 
-![](/img/Seminars/Seminar-LKM/rmmod.png)
-
-## Última verificación tras la descarga
-
-![](/img/Seminars/Seminar-LKM/goodbye.png)
-
+![Goodbye Message](/img/Seminars/Seminar-LKM/goodbye.png)
