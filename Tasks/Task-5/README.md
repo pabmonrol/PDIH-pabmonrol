@@ -1,35 +1,35 @@
-# Practice 5: Análisis de Formas de Onda de Archivos de Sonido
+# Practice 5: Sound File Waveform Analysis
 
-Este proyecto tiene como objetivo leer, analizar y visualizar las formas de onda de archivos de sonido utilizando R. Utiliza las librerías `tuneR` y `seewave` para realizar el procesamiento de los archivos de sonido.
+This project aims to read, analyze, and visualize the waveforms of sound files using R. It utilizes the `tuneR` and `seewave` libraries to process the sound files.
 
-## Contenido del Proyecto
+## Project Content
 
-- **file.R**: Script principal que realiza las siguientes tareas:
-  - Instala y carga las librerías necesarias.
-  - Lee los archivos de sonido.
-  - Ajusta los márgenes gráficos.
-  - Dibuja y guarda las formas de onda de los sonidos en archivos PNG.
+- **file.R**: Main script that performs the following tasks:
+  - Installs and loads the necessary libraries.
+  - Reads the sound files.
+  - Adjusts the graphic margins.
+  - Draws and saves the sound waveforms as PNG files.
 
-## Dependencias
+## Dependencies
 
-El script requiere las siguientes librerías de R:
+The script requires the following R libraries:
 
 - `tuneR`
 - `seewave`
 
-Estas librerías deben estar instaladas y cargadas en su entorno de R.
+These libraries must be installed and loaded in your R environment.
 
-## Uso
+## Usage
 
-1. **Preparar los archivos de sonido**: Asegúrese de tener los archivos de sonido `nombre.wav` y `apellidos.wav` en el mismo directorio que el script `file.R`.
+1. **Prepare the sound files**: Ensure you have the sound files `nombre.wav` and `apellidos.wav` in the same directory as the `file.R` script.
 
-2. **Ejecutar el script**: Ejecute el script en R para procesar los archivos de sonido y generar las formas de onda.
+2. **Run the script**: Execute the script in R to process the sound files and generate the waveforms.
 
     ```R
     source("file.R")
     ```
 
-3. **Resultados**: Los archivos PNG con las formas de onda de los sonidos.
+3. **Results**: The PNG files with the sound waveforms.
    
 ![](/img/Tasks/Task-5/forma_onda_nombre.png)
 
